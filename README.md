@@ -20,6 +20,9 @@ The 2nd leap was to take what we'd written and turn it into a method that return
 
 This worked fine but was a little unpredictable and would crash as the method is an infinite loop!
 
+Here is the output prior to crashing:
+![image](https://user-images.githubusercontent.com/71782749/108342913-3d92c880-71d3-11eb-8fec-f437ad381ce9.png)
+
 #### scraper.py
 
 This again was simple to follow. Although, I ran into errors when I tried to translate this to the monster.co.uk website as the html element I required didn't have an id tag, only a class one. This is something to come back to as I'm sure with more knowledge I'll be able to figure out how to do this!
